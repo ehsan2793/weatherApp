@@ -17,6 +17,7 @@
 		7CF450B52C570F5200FEE9AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF450B42C570F5200FEE9AA /* Constants.swift */; };
 		7CF450B72C573D3E00FEE9AA /* GeocodingCilent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF450B62C573D3E00FEE9AA /* GeocodingCilent.swift */; };
 		7CF450B92C5753D900FEE9AA /* WeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF450B82C5753D900FEE9AA /* WeatherClient.swift */; };
+		7CF450BC2C58720100FEE9AA /* MeasurementFormatter+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF450BB2C58720100FEE9AA /* MeasurementFormatter+Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		7CF450B42C570F5200FEE9AA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = SOURCE_ROOT; };
 		7CF450B62C573D3E00FEE9AA /* GeocodingCilent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingCilent.swift; sourceTree = "<group>"; };
 		7CF450B82C5753D900FEE9AA /* WeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClient.swift; sourceTree = "<group>"; };
+		7CF450BB2C58720100FEE9AA /* MeasurementFormatter+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeasurementFormatter+Extentions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		7CF450932C56568C00FEE9AA /* weatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				7CF450BA2C5871D400FEE9AA /* Extentions */,
 				7CF450AB2C570A6900FEE9AA /* Utilities */,
 				7CF450A72C57086A00FEE9AA /* Clients */,
 				7CF450A22C57053A00FEE9AA /* Models */,
@@ -107,6 +110,14 @@
 				7CF450B42C570F5200FEE9AA /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7CF450BA2C5871D400FEE9AA /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				7CF450BB2C58720100FEE9AA /* MeasurementFormatter+Extentions.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 				7CF450B72C573D3E00FEE9AA /* GeocodingCilent.swift in Sources */,
 				7CF450A92C57088300FEE9AA /* ApiEndpoint.swift in Sources */,
 				7CF450A62C5706B100FEE9AA /* Weather.swift in Sources */,
+				7CF450BC2C58720100FEE9AA /* MeasurementFormatter+Extentions.swift in Sources */,
 				7CF450972C56568C00FEE9AA /* ContentView.swift in Sources */,
 				7CF450A42C57058300FEE9AA /* Location.swift in Sources */,
 				7CF450B92C5753D900FEE9AA /* WeatherClient.swift in Sources */,
