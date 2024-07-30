@@ -13,11 +13,11 @@ struct ContentView: View {
     @State private var weather: Weather?
     let geocodingClient = GeocodingClient()
     let weatherClient = WeatherClient()
- 
 
     private func featchWeather() async {
         do {
-            guard let location = try await geocodingClient.coordinateByCity(city: city) else { return }
+            guard let location = try await geocodingClient.coordinateByCity(city: city)
+            else { return }
             weather = try await weatherClient.FeatchWeather(location: location)
         } catch {
             print(error)
